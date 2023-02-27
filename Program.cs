@@ -20,7 +20,7 @@ namespace GenericsMyList
                 Console.WriteLine("The index was more than MyList has elements");
                 throw new Exception();
             }
-            return arrayList[index - 1];
+            return arrayList[index];
         }
 
         public int Count
